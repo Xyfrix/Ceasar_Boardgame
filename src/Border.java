@@ -17,8 +17,13 @@ public class Border {
         pRight = rP;
     }
 
+    public Type getSymbol() {
+        return symbol;
+    }
+
     public static void main(String[] args) {
-        Type t = Type.Sword;
-        System.out.println(t);
+        Type t = Type.Shield;
+        System.out.println(t.ordinal());
+        System.out.println(Type.Boat);
     }
 }
